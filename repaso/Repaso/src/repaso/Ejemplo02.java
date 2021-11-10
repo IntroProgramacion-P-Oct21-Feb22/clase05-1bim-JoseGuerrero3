@@ -29,12 +29,14 @@ public class Ejemplo02 {
         System.out.println("Ingrese la población del país");
         extension = entrada.nextDouble();
         
+        entrada.nextLine();
+        
         System.out.println("Ingrese nombre del país");
         nombrePais = entrada.nextLine();
                 
         System.out.println("Ingrese capital del país");
         capitalPais = entrada.nextLine();
-        
+       
         System.out.printf("Datos de país\n\tNombre:%s\n\tCapital:%s"
                 + "\n\tPoblación:%.2f\n", nombrePais, capitalPais, extension);
         

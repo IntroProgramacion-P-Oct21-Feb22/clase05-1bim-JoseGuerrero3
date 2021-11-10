@@ -21,6 +21,7 @@ public class Ejemplo4 {
         // Expresiones lógicas con cadenas en Java
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
+        
         System.out.println("Ingrese la ciudad");
         String ciudad = entrada.nextLine(); // Quito
         //F           or          //F         >>>>> F
